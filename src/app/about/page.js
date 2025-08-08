@@ -56,11 +56,11 @@ useEffect(() => {showCuteKitty}, [showCuteKitty]);
         <div className='content_container col_6 px-10 '>
           <h2 className='lg:text-3xl text-4xl font-bold  text-orange-600 mb-2.5'>Victoria Mobilia</h2>
           <p className=' mb-2.5'>Me llamo Victoria, y en realidad soy un androide controlado por un chihuahua potenciado con Chat GPT-666.  Me gustan los animales, la flora y todo lo que la tierra ofrece. Me gusta programar, aunque parte de mi desearia que no empeore mi miopía. Se que lees mis pensamientos, profesor. Miau miau miau miau miau miau miau miau miau miau :3</p>
-          <p className='mb-2.5 lg:text-1xl text-[1.25em]'>Mi instagram / portafolio es <Link href={"https://www.instagram.com/herbertia_art/"} className='font-bold text-orange-600 mb-2.5'>@herbertia_art</Link></p>
-          <p className='mb-1.5 lg:text-1xl text-[1.25em]'>Mis hobbies (y cuanto me gusta c/u) son:</p>
+          <p className='mb-2.5 lg:text-[1em] text-[1.25em]'>Mi instagram / portafolio es <Link href={"https://www.instagram.com/herbertia_art/"} className='font-bold text-orange-600 mb-2.5'>@herbertia_art</Link></p>
+          <p className='mb-1.5 lg:text-[1em] text-[1.25em]'>Mis hobbies (y cuanto me gusta c/u) son:</p>
           <ul>
             {hobbies.map(hobby =>
-              <li className='list-disc ml-5 font-bold mb-1.5 marker:text-orange-500 lg:text-1xl text-[1.25em]' key={hobby.id}>{hobby.nombre} ({hobby.gusto}%)</li>
+              <li className='list-disc ml-5 font-bold mb-1.5 marker:text-orange-500 lg:text-[1em] text-[1.25em]' key={hobby.id}>{hobby.nombre} ({hobby.gusto}%)</li>
             )}
           </ul>
         </div>

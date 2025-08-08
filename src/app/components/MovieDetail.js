@@ -44,20 +44,20 @@ export default function MovieDetail({ id }) {
               />
             </div>
           </div>
-          <div className='col_6 flex flex-col justify-center lg:p-10 px-10'>
+          <div className='col_6 flex flex-col justify-center lg:p-10 px-16'>
             <h1 className='text-4xl font-bold mb-6 lg:text-left text-center text-orange-600'>{movieDetail.title}</h1>
             <p className='mb-10'>{movieDetail.overview}</p>
             {/* 3 Listado de generos */}
             <p className='text-2xl text-orange-500 font-bold'>Genres:</p>
             <ul className='generos mb-10'>
              {movieDetail.genres.map(genre =>
-              <li>{genre.name}</li>
+              <li className='list-disc marker:text-orange-600 ml-5'>{genre.name}</li>
              )}
             </ul>
 
             <div className='flex gap-5'>
               <Link
-                className='bg-white rounded-xl p-2 w-[150px] text-black text-center hover:bg-opacity-50'
+                className='bg-white rounded-xl p-2 w-[150px] text-black text-center hover:bg-opacity-50 mb-10'
                 href='/'
               >
                 Back
