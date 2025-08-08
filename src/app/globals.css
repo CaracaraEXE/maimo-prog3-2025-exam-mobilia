@@ -75,9 +75,7 @@ body {
 	
 }
 
-@media screen and (max-width: 768px) {
-	.grid { grid-column-gap: 0; }
-	
+@media screen and (max-width: 768px) {	
 	.col_3,
 	.col_2,
 	.col_4,
